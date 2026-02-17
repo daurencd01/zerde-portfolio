@@ -924,7 +924,7 @@ body {
   }
 
   .pdf-preview {
-    height: 350px;
+    display: none;
   }
 
   .contact-wrapper {
