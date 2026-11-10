@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import '@fontsource-variable/literata'
+import '@fontsource-variable/literata/wght-italic.css'
+import '@fontsource-variable/manrope'
 import App from './App.jsx'
 import './index.css'
 

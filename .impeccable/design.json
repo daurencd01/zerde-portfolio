@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T14:12:34Z",
+  "title": "Design System: Портфолио Зерде Канат",
+  "extensions": {
+    "colorMeta": {
+      "forest-green": {
+        "role": "primary",
+        "displayName": "Лесной зелёный",
+        "tonalRamp": [
+          "oklch(15% .08 160)",
+          "oklch(26% .08 160)",
+          "oklch(37% .08 160)",
+          "oklch(48% .08 160)",
+          "oklch(59% .08 160)",
+          "oklch(70% .08 160)",
+          "oklch(82% .08 160)",
+          "oklch(95% .08 160)"
+        ]
+      },
+      "forest-green-deep": {
+        "role": "primary",
+        "displayName": "Тёмный лесной зелёный",
+        "tonalRamp": [
+          "oklch(15% .08 160)",
+          "oklch(26% .08 160)",
+          "oklch(37% .08 160)",
+          "oklch(48% .08 160)",
+          "oklch(59% .08 160)",
+          "oklch(70% .08 160)",
+          "oklch(82% .08 160)",
+          "oklch(95% .08 160)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Бумага",
+        "tonalRamp": [
+          "oklch(15% .015 95)",
+          "oklch(26% .015 95)",
+          "oklch(37% .015 95)",
+          "oklch(48% .015 95)",
+          "oklch(59% .015 95)",
+          "oklch(70% .015 95)",
+          "oklch(82% .015 95)",
+          "oklch(95% .015 95)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Чернила",
+        "tonalRamp": [
+          "oklch(15% .025 160)",
+          "oklch(26% .025 160)",
+          "oklch(37% .025 160)",
+          "oklch(48% .025 160)",
+          "oklch(59% .025 160)",
+          "oklch(70% .025 160)",
+          "oklch(82% .025 160)",
+          "oklch(95% .025 160)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Приглушённый текст",
+        "tonalRamp": [
+          "oklch(15% .035 160)",
+          "oklch(26% .035 160)",
+          "oklch(37% .035 160)",
+          "oklch(48% .035 160)",
+          "oklch(59% .035 160)",
+          "oklch(70% .035 160)",
+          "oklch(82% .035 160)",
+          "oklch(95% .035 160)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Линия",
+        "tonalRamp": [
+          "oklch(15% .03 150)",
+          "oklch(26% .03 150)",
+          "oklch(37% .03 150)",
+          "oklch(48% .03 150)",
+          "oklch(59% .03 150)",
+          "oklch(70% .03 150)",
+          "oklch(82% .03 150)",
+          "oklch(95% .03 150)"
+        ]
+      },
+      "pale-green": {
+        "role": "primary",
+        "displayName": "Светлый зелёный",
+        "tonalRamp": [
+          "oklch(15% .02 155)",
+          "oklch(26% .02 155)",
+          "oklch(37% .02 155)",
+          "oklch(48% .02 155)",
+          "oklch(59% .02 155)",
+          "oklch(70% .02 155)",
+          "oklch(82% .02 155)",
+          "oklch(95% .02 155)"
+        ]
+      },
+      "ochre": {
+        "role": "secondary",
+        "displayName": "Охра",
+        "tonalRamp": [
+          "oklch(15% .1 55)",
+          "oklch(26% .1 55)",
+          "oklch(37% .1 55)",
+          "oklch(48% .1 55)",
+          "oklch(59% .1 55)",
+          "oklch(70% .1 55)",
+          "oklch(82% .1 55)",
+          "oklch(95% .1 55)"
+        ]
+      },
+      "ochre-soft": {
+        "role": "secondary",
+        "displayName": "Светлая охра",
+        "tonalRamp": [
+          "oklch(15% .03 60)",
+          "oklch(26% .03 60)",
+          "oklch(37% .03 60)",
+          "oklch(48% .03 60)",
+          "oklch(59% .03 60)",
+          "oklch(70% .03 60)",
+          "oklch(82% .03 60)",
+          "oklch(95% .03 60)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Крупный редакционный заголовок",
+        "purpose": "Имя на первом экране."
+      },
+      "headline": {
+        "displayName": "Заголовок раздела",
+        "purpose": "Основные разделы."
+      },
+      "title": {
+        "displayName": "Название истории",
+        "purpose": "Истории практик."
+      },
+      "body": {
+        "displayName": "Основной текст",
+        "purpose": "Пояснения и списки."
+      },
+      "navigation": {
+        "displayName": "Меню",
+        "purpose": "Пункты навигации."
+      }
+    },
+    "shadows": [
+      {
+        "name": "portrait-frame",
+        "value": "0 20px 55px rgba(28,60,47,.08)",
+        "purpose": "Лёгкое отделение портрета от бумажной основы."
+      },
+      {
+        "name": "science-viewer",
+        "value": "0 22px 45px rgba(25,72,57,.08)",
+        "purpose": "Глубина окна модели на зелёной полосе."
+      },
+      {
+        "name": "certificate-preview",
+        "value": "0 16px 38px rgba(28,60,47,.12)",
+        "purpose": "Отделение снимка сертификата от бумажного фона."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "0 12px 20px rgba(25,39,32,.09)",
+        "purpose": "Отделяет открытое мобильное меню от страницы."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "background .2s, color .2s, transform .2s",
+        "purpose": "Наведение на кнопки."
+      },
+      {
+        "name": "image-hover",
+        "value": "transform .7s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Лёгкое увеличение фотографии практики."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-adjust",
+        "value": "1120px"
+      },
+      {
+        "name": "mobile-nav",
+        "value": "850px"
+      },
+      {
+        "name": "single-column",
+        "value": "650px"
+      },
+      {
+        "name": "narrow",
+        "value": "380px"
+      },
+      {
+        "name": "smallest",
+        "value": "340px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Основная кнопка",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Главное действие на первом экране.",
+      "html": "<a class=\"ds-button-primary\" href=\"#\">Скачать CV <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:1.4rem;min-height:54px;padding:.85rem 1.3rem;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:2px;text-decoration:none;font:700 .93rem 'Manrope Variable',Arial,sans-serif;transition:background .2s,color .2s,transform .2s}.ds-button-primary:hover{background:#153c32;transform:translateY(-2px)}.ds-button-primary:active{transform:translateY(0)}.ds-button-primary:focus-visible{outline:3px solid #a9563f;outline-offset:4px}"
+    },
+    {
+      "name": "Контурная кнопка",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Вторичное действие рядом с основным.",
+      "html": "<a class=\"ds-button-outline\" href=\"#\">Связаться <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-button-outline{display:inline-flex;align-items:center;justify-content:space-between;gap:1.4rem;min-height:54px;padding:.85rem 1.3rem;background:transparent;color:var(--green);border:1px solid var(--green);border-radius:2px;text-decoration:none;font:700 .93rem 'Manrope Variable',Arial,sans-serif;transition:background .2s,color .2s,transform .2s}.ds-button-outline:hover{background:var(--green-soft);transform:translateY(-2px)}.ds-button-outline:active{transform:translateY(0)}.ds-button-outline:focus-visible{outline:3px solid #a9563f;outline-offset:4px}"
+    },
+    {
+      "name": "Ссылка навигации",
+      "kind": "nav",
+      "description": "Пункт закреплённой шапки с тонким активным подчёркиванием.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#\">Практика</a><a class=\"ds-nav-link ds-active\" href=\"#\">Образование</a></nav>",
+      "css": ".ds-nav{display:flex;gap:2rem;font-family:'Manrope Variable',Arial,sans-serif}.ds-nav-link{position:relative;padding:.5rem 0;color:#2c3e34;text-decoration:none;font-size:.89rem;font-weight:600}.ds-nav-link:after{content:'';position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--green);transition:width .2s}.ds-nav-link:hover:after,.ds-nav-link.ds-active:after{width:100%}.ds-nav-link:focus-visible{outline:3px solid #a9563f;outline-offset:4px}"
+    },
+    {
+      "name": "Переключатель языка",
+      "kind": "custom",
+      "description": "Компактное управление русской и казахской версией.",
+      "html": "<div class=\"ds-language\"><button type=\"button\">RU</button><button type=\"button\" class=\"ds-selected\">KZ</button></div>",
+      "css": ".ds-language{display:inline-flex;border:1px solid var(--green);border-radius:5px;overflow:hidden}.ds-language button{border:0;background:transparent;color:var(--green);min-width:42px;padding:.45rem .78rem;font:400 .84rem 'Manrope Variable',Arial,sans-serif;cursor:pointer}.ds-language button:hover{background:var(--green-soft)}.ds-language button.ds-selected{background:var(--green);color:#fff}.ds-language button:focus-visible{outline:3px solid #a9563f;outline-offset:4px}"
+    },
+    {
+      "name": "Индекс раздела",
+      "kind": "custom",
+      "description": "Малый номер раздела с охристой линейкой перед заголовком.",
+      "html": "<span class=\"ds-section-index\">01 / 05</span>",
+      "css": ".ds-section-index{display:inline-flex;align-items:center;gap:.7rem;color:var(--ochre);font:800 .7rem 'Manrope Variable',Arial,sans-serif;letter-spacing:.17em;text-transform:uppercase}.ds-section-index:after{content:'';width:48px;height:1px;background:currentColor}"
+    },
+    {
+      "name": "История практики",
+      "kind": "card",
+      "description": "Две колонки: пронумерованная фотография и светлая текстовая карточка с итогом.",
+      "html": "<article class=\"ds-case\"><div class=\"ds-case-image\" aria-hidden=\"true\"><span>01</span></div><div class=\"ds-case-content\"><h3>Гимназия №6</h3><p>Уроки химии и биологии, работа с учащимися.</p><div class=\"ds-case-result\">Проведены занятия по химии и биологии.</div></div></article>",
+      "css": ".ds-case{display:grid;grid-template-columns:1.06fr .94fr;gap:2rem;align-items:stretch;padding:1.5rem 0;border-top:1px solid var(--green);color:var(--ink)}.ds-case-image{position:relative;min-height:230px;aspect-ratio:1.25;background:linear-gradient(140deg,#dbe3d9,#6e9384 65%,#1e5343)}.ds-case-image span{position:absolute;left:1.2rem;bottom:.5rem;color:white;font:500 4.6rem/1 'Literata Variable',Georgia,serif}.ds-case-content{display:flex;flex-direction:column;justify-content:center;padding:2rem;background:#fffdf7;border:1px solid var(--line)}.ds-case h3{margin:0 0 1.3rem;font:580 2rem/1.15 'Literata Variable',Georgia,serif;letter-spacing:-.035em}.ds-case p{max-width:40ch;font:400 1.1rem/1.6 'Manrope Variable',Arial,sans-serif}.ds-case-result{background:var(--green-soft);border-top:1px solid var(--ochre);padding:1.1rem 1.3rem;font:400 1rem/1.5 'Manrope Variable',Arial,sans-serif}@media(max-width:650px){.ds-case{grid-template-columns:1fr}}"
+    },
+    {
+      "name": "Научная модель",
+      "kind": "custom",
+      "description": "Рамка для интерактивной учебной модели с переключателем и управлением.",
+      "html": "<div class=\"ds-science\"><div class=\"ds-tabs\"><button class=\"ds-selected\">Молекула воды</button><button>Растительная клетка</button></div><div class=\"ds-science-frame\" role=\"group\" aria-label=\"Схематичная модель воды\">H₂O</div><div class=\"ds-science-controls\"><button>Повернуть влево</button><button>Повернуть вправо</button></div></div>",
+      "css": ".ds-science{border:1px solid var(--green);background:#f9f7ef;padding:1rem;font-family:'Manrope Variable',Arial,sans-serif;box-shadow:0 22px 45px rgba(25,72,57,.08)}.ds-tabs{display:flex;gap:.5rem;border-bottom:1px solid var(--line);padding-bottom:.8rem}.ds-tabs button{border:0;border-radius:3px;background:transparent;color:var(--muted);padding:.45rem .75rem;min-height:40px;font-weight:700;cursor:pointer}.ds-tabs button.ds-selected{background:var(--green);color:#fff}.ds-tabs button:hover:not(.ds-selected){background:#d7e5d9}.ds-science-frame{height:230px;display:grid;place-items:center;color:var(--green);font:580 4rem 'Literata Variable',Georgia,serif;background:radial-gradient(circle at 50% 50%,#fffdf7 0%,#f2f3e9 85%)}.ds-science-controls{display:flex;justify-content:space-between;gap:.5rem;border-top:1px solid var(--line);padding-top:.8rem}.ds-science-controls button{background:transparent;color:var(--green);border:1px solid var(--line);border-radius:3px;padding:.5rem .7rem;min-height:39px;font-weight:700;cursor:pointer}.ds-science-controls button:hover{background:#d7e5d9}.ds-science button:focus-visible{outline:3px solid #a9563f;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Научный журнал",
+    "overview": "Сайт устроен как современная полоса научного журнала: крупная антиква, бумажная основа, тонкие линейки и иллюстрация ботанического атласа рядом с настоящим портретом. Школа или работодатель видит предметную область, школьную практику и подтверждающие материалы.\n\nТёмно-зелёная полоса с педагогическим подходом, мягкие карточки практик и светлая область для моделей воды и растительной клетки дают странице ритм. Сертификат показан снимком реального документа. Вся ключевая информация остаётся читаемой при отключённом 3D.",
+    "keyCharacteristics": [
+      "Светлая бумажная основа, глубокий зелёный и сдержанный охристый акцент.",
+      "Literata для крупных заголовков, Manrope для чтения и управления.",
+      "Ботаническая иллюстрация поддерживает настоящие портрет и фотографии практик.",
+      "Нумерация разделов, тонкие линии и смена светлых и тёмной полос."
+    ],
+    "rules": [
+      {
+        "name": "The Restrained Accent Rule",
+        "body": "Зелёный связывает навигацию и действия, охра отмечает редакционные детали; охра не заменяет основной цвет кнопок.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do использовать реальные фотографии и снимки документов для подтверждения опыта.",
+      "Do ограничивать охристый цвет небольшими редакционными акцентами.",
+      "Do сохранять простую и читаемую колонку при узкой ширине экрана.",
+      "Do показывать состояния наведения, фокуса и выбранного языка."
+    ],
+    "donts": [
+      "Don't заменять реальные документы декоративными имитациями.",
+      "Don't использовать постоянную 3D-анимацию как обязательное условие чтения страницы."
+    ]
+  }
+}
